@@ -64,5 +64,4 @@ animation = matplotlib.animation.FuncAnimation(fig, update)
 
 matplotlib.pyplot.show()    
 
-
 # %matplotlib qt - type into console to open animation window
