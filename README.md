@@ -12,4 +12,4 @@ Both files need to be open when running the final Agent Based Model as the model
 file. Such functions include making the agents move, eat and then stop when they are full and to interact with other individual agents
 and share their food with their neighbour.
 
-This repository has been linked to [my website](danialowen.github.io) 
+This repository has been linked to [my website](https://danialowen.github.io/) 
