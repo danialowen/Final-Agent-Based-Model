@@ -10,7 +10,7 @@ class Agent:
         
     def move(self):
         #if the random number is below 0.5, the x and y coordinates must move 
-        #postition by +1 from its original value. If more than 0.5, move -1
+        #position by +1 from its original value. If more than 0.5, move -1
         if random.random() < 0.5:
             self.y = (self.y + 1) % 100
         else:
@@ -22,7 +22,7 @@ class Agent:
             self.x = (self.x - 1) % 100
     
     def eat_until_full(self): 
-        # Eating the environment as they move and gaining +10 in thier store 
+        # Eating the environment as they move and gaining +10 in their store 
         # until all agents are full (defined by a store of >= 5000) and then stop
         if self.environment[self.y][self.x] > 10:
             self.environment[self.y][self.x] -= 10
@@ -32,7 +32,7 @@ class Agent:
             
                       
     def share_with_neighbours(self, neighbourhood):
-        # If the agents come close enough to eachother, shorter than the value of 
+        # If the agents come close enough to each other, shorter than the value of 
         # neighbourhood, then they share the food and share store value
         for agent in self.agents:
             dist = self.distance_between(agent) 
