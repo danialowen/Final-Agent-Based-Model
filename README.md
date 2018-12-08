@@ -2,7 +2,7 @@
 
 This repository includes the necessary files to complete my submission to the first assessment in GEOG5995M. This 
 assignment included creating an Agent Based Model of agents (Sheep) moving and eating around an environment, interacting
-with each other.
+with each other created in Spyder; Python.
 
 This repository includes:
 - **Final Agent Based Model** = Assignment_1.py
